@@ -224,6 +224,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Webkul\CustomStyle\Providers\CustomStyleServiceProvider::class,
 
         /*
          * Package Service Providers...
