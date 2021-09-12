@@ -831,6 +831,7 @@ return [
             'name' => 'Naam',
             'description' => 'Omschrijving',
             'hostname' => 'Hostnaam',
+            'hostname-placeholder'   => 'https://www.example.com (Voeg op het einde geen schuine streep toe.)',
             'currencies-and-locales' => 'Valuta en landinstellingen',
             'locales' => 'Landinstellingen',
             'default-locale' => 'Standaardlocale',
@@ -1351,6 +1352,7 @@ return [
             'notifications' => [
                 'verification' => 'Stuur een verificatie-e-mail na registratie van de klant',
                 'registration' => 'Stuur een bevestigingsmail na registratie van de klant',
+                'customer-registration-confirmation-mail-to-admin' => 'Stuur een bevestigingsmail naar admin na klantregistratie',
                 'customer' => 'Stuur de account gegevens van de klant na registratie',
                 'new-order' => 'Stuur een notificatie naar de klant na het plaatsen van een nieuwe bestelling',
                 'new-admin' => 'Stuur een notificatie naar de beheerder na het plaatsen van een nieuwe bestelling',

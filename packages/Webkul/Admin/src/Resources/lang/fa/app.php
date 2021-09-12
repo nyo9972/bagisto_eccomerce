@@ -832,6 +832,7 @@ return [
             'name' => 'نام',
             'description' => 'توضیحات',
             'hostname' => 'نام میزبان',
+            'hostname-placeholder'   => 'https://www.example.com (در پایان اسلش اضافه نکنید)',
             'currencies-and-locales' => 'ارز و منطقه ها',
             'locales' => 'منطقه ها',
             'default-locale' => 'منطقه پیش فرض',
@@ -1354,6 +1355,7 @@ return [
             'notifications' => [
                 'verification' => 'خدمات ارائه شده بفرست',
                 'registration' => 'ثبت نام از طریق ایمیل',
+                'customer-registration-confirmation-mail-to-admin' => 'پس از ثبت نام مشتری ، یک ایمیل تأیید به مدیر ارسال کنید',
                 'customer' => 'ارسال ایمیل به مشتری',
                 'new-order' => 'ارسال تأییدیه سفارش ایمیل',
                 'new-admin' => 'ارسال ایمیل دعوت نامه به مدیر',

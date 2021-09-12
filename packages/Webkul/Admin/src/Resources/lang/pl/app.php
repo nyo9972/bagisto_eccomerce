@@ -834,6 +834,7 @@ return [
             'name' => 'Nazwa',
             'description' => 'Opis',
             'hostname' => 'Nazwa hosta',
+            'hostname-placeholder'   => 'https://www.example.com (Nie dodawaj ukośnika na końcu.)',
             'currencies-and-locales' => 'Waluty i ustawienia regionalne',
             'locales' => 'Lokalizacje',
             'default-locale' => 'Domyślne ustawienia regionalne',
@@ -1354,6 +1355,7 @@ return [
             'notifications' => [
                 'verification' => 'Wyślij e-mail weryfikacyjny',
                 'registration' => 'Wyślij e-mail rejestracyjny',
+                'customer-registration-confirmation-mail-to-admin' => 'Wyślij wiadomość e-mail z potwierdzeniem do administratora po rejestracji klienta',
                 'customer' => 'Wyślij e-mail klienta',
                 'new-order' => 'Wyślij e-mail z potwierdzeniem zamówienia',
                 'new-admin' => 'Wyślij e-mail z zaproszeniem administratora',

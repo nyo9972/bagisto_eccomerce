@@ -834,6 +834,7 @@ return [
             'name' => 'اسم',
             'description' => 'الوصف',
             'hostname' => 'اسم المضيف',
+            'hostname-placeholder'   => 'https://www.example.com (لا تضيف شرطة مائلة في النهاية.)',
             'currencies-and-locales' => 'العملات والمواضع',
             'locales' => 'لغات',
             'default-locale' => 'الموقع الافتراضي',
@@ -1357,6 +1358,7 @@ return [
             'notifications' => [
                 'verification' => 'ارسل ايميل التفعيل',
                 'registration' => 'إرسال بريد إلكتروني للتسجيل',
+                'customer-registration-confirmation-mail-to-admin' => 'إرسال بريد إلكتروني للتأكيد إلى المسؤول بعد تسجيل العميل',
                 'customer' => 'إرسال بريد إلكتروني للعميل',
                 'new-order' => 'إرسال بريد إلكتروني لتأكيد الطلب',
                 'new-admin' => 'إرسال بريد إلكتروني لدعوة المسؤول',

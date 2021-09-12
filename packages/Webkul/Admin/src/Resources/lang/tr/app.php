@@ -825,6 +825,7 @@ return [
             'name' => 'Tanımı',
             'description' => 'Açıklama',
             'hostname' => 'Alan Adı',
+            'hostname-placeholder'   => 'https://www.example.com (Sonunda eğik çizgi eklemeyin.)',
             'currencies-and-locales' => 'Para Birimi ve Dil',
             'locales' => 'Dil Seçenekleri',
             'default-locale' => 'Varsayılan Dil',
@@ -1341,6 +1342,7 @@ return [
             'notifications' => [
                 'verification' => 'Doğrulama Maili Gönder',
                 'registration' => 'Kayıt Maili Gönder',
+                'customer-registration-confirmation-mail-to-admin' => 'Müşteri kaydından sonra yöneticiye bir onay e-postası gönderin',
                 'customer' => 'Müşteriye Mail Gönder',
                 'new-order' => 'Sipariş Doğrulama Maili Gönder',
                 'new-admin' => 'Yönetici Davet Maili Gönder',

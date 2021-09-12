@@ -836,6 +836,7 @@ return [
             'name' => 'Nome',
             'description' => 'Descrizione',
             'hostname' => 'Hostname',
+            'hostname-placeholder'   => 'https://www.example.com (Non aggiungere la barra alla fine.)',
             'currencies-and-locales' => 'Valute e localizzazioni',
             'locales' => 'Localizzazioni',
             'default-locale' => 'Localizzazione predefinita',
@@ -1357,6 +1358,7 @@ return [
             'notifications' => [
                 'verification' => 'Invia email di verifica',
                 'registration' => 'Invia email di registrazione',
+                'customer-registration-confirmation-mail-to-admin' => 'Invia un\'e-mail di conferma all\'amministratore dopo la registrazione del cliente',
                 'customer' => 'Invia email a cliente',
                 'new-order' => 'Invia email di conferma Ordine',
                 'new-admin' => 'Invia email di invito ad Admin',

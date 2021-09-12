@@ -849,6 +849,7 @@ return [
             'name' => 'Nom',
             'description' => 'La description',
             'hostname' => 'Nom d\'hôte',
+            'hostname-placeholder'   => 'https://www.example.com (N\'ajoutez pas de slash à la fin.)',
             'currencies-and-locales' => 'Devises et paramètres régionaux',
             'locales' => 'Paramètres régionaux',
             'default-locale' => 'Paramètres régionaux par défaut',
@@ -1380,6 +1381,7 @@ return [
             'notifications' => [
                 'verification' => 'Envoyer un e-mail de vérification après l\'enregistrement du client',
                 'registration' => 'Envoyer un e-mail de confirmation après l\'enregistrement du client',
+                'customer-registration-confirmation-mail-to-admin' => 'Envoyer un e-mail de confirmation à l\'administrateur après l\'enregistrement du client',
                 'customer' => 'Envoyer les informations d\'identification du compte client après l\'enregistrement',
                 'new-order' => 'Envoyer un e-mail de confirmation au client après avoir passé une nouvelle commande',
                 'new-admin' => 'Envoyer un e-mail de confirmation à l\'administrateur après avoir passé une nouvelle commande',
