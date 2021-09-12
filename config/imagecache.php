@@ -1,6 +1,6 @@
 <?php
 
-return [
+return array(
 
     /*
     |--------------------------------------------------------------------------
@@ -16,24 +16,24 @@ return [
     |
     */
 
-    'route' => null,
+    'route' => 'cache',
 
     /*
     |--------------------------------------------------------------------------
     | Storage paths
     |--------------------------------------------------------------------------
     |
-    | The following paths will be searched for the image filename, submitted
+    | The following paths will be searched for the image filename, submited
     | by URI.
     |
     | Define as many directories as you like.
     |
     */
 
-    'paths' => [
-        public_path('upload'),
-        public_path('images')
-    ],
+    'paths' => array(
+        storage_path('app/public'),
+        public_path('storage')
+    ),
 
     /*
     |--------------------------------------------------------------------------
@@ -51,11 +51,11 @@ return [
     |
     */
 
-    'templates' => [
-        'small' => 'Intervention\Image\Templates\Small',
-        'medium' => 'Intervention\Image\Templates\Medium',
-        'large' => 'Intervention\Image\Templates\Large',
-    ],
+    'templates' => array(
+        'small'  => 'Webkul\Product\CacheFilters\Small',
+        'medium' => 'Webkul\Product\CacheFilters\Medium',
+        'large'  => 'Webkul\Product\CacheFilters\Large',
+    ),
 
     /*
     |--------------------------------------------------------------------------
@@ -66,6 +66,6 @@ return [
     |
     */
 
-    'lifetime' => 43200,
+    'lifetime' => 525600,
 
-];
+);    
